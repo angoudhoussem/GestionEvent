@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fill_layout"
+    android:orientation="vertical" >
+
+    <ScrollView style="@style/match_wrap" >
+
+        <LinearLayout
+            style="@style/fill_layout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@id/entry_wrapper"
+                style="@style/login_wrapper"
+                android:layout_gravity="center"
+                android:layout_marginTop="15.0dip" >
+
+                <LinearLayout style="@style/authentication_header" >
+
+                    <ImageView
+                        android:id="@id/registration_title_icon"
+                        style="@style/authentification_title_icon"
+                        android:src="@drawable/d_add" />
+
+                    <TextView
+                        style="@style/authentification_title"
+                        android:text="@string/create_event" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/authentification_background"
+                    android:layout_height="340dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/event" />
+
+                    <EditText
+                        android:id="@id/title_event"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/edittext"
+                        android:hint="@string/field_titre_event" />
+
+                    <EditText
+                        android:id="@id/place_event"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/edittext"
+                        android:hint="@string/field_adresse_event" />
+
+                    <LinearLayout
+                        style="@style/wide_layout"
+                        android:layout_marginTop="10dip"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@id/img_date_event"
+                            style="@style/authentification_title_icon"
+                            android:layout_width="45dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="30dip"
+                            android:src="@drawable/icon_calendar_active" />
+
+                        <ImageView
+                            android:id="@id/img_time_event"
+                            style="@style/authentification_title_icon"
+                            android:layout_width="45dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="110dip"
+                            android:src="@drawable/icon_time_tap" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/wide_layout"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@id/text_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="@string/text_date"
+                            android:textColor="#ff0099cc"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@id/text_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dip"
+                            android:text="@string/text_time"
+                            android:textColor="#ff0099cc"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/wide_layout"
+                        android:layout_marginTop="0.0dip" >
+
+                        <Button
+                            android:id="@id/btn_next"
+                            style="@style/dialog_button"
+                            android:layout_marginRight="2.0dip"
+                            android:layout_weight="50.0"
+                            android:text="@string/btn_next" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/fill_layout" >
+
+        <ImageView
+            android:id="@id/authentification_title_icon"
+            style="@style/wrap_layout"
+            android:layout_gravity="bottom"
+            android:src="@drawable/footer" />
+    </LinearLayout>
+
+</LinearLayout>

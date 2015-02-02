@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="authentencation" type="id">false</item>
+    <item name="authentification_title_icon" type="id">false</item>
+    <item name="login_value" type="id">false</item>
+    <item name="password_value" type="id">false</item>
+    <item name="button_login" type="id">false</item>
+    <item name="registration_title_icon" type="id">false</item>
+    <item name="registration_login" type="id">false</item>
+    <item name="registration_password" type="id">false</item>
+    <item name="registration_email" type="id">false</item>
+    <item name="registration_adresse" type="id">false</item>
+    <item name="registration_pseudo" type="id">false</item>
+    <item name="registration" type="id">false</item>
+    <item name="to_register" type="id">false</item>
+    <item name="btn_register" type="id">false</item>
+    <item name="btn_menu_home" type="id">false</item>
+    <item name="btn_menu_alert" type="id">false</item>
+    <item name="settings_pseudo" type="id">false</item>
+    <item name="settings_login" type="id">false</item>
+    <item name="settings_password" type="id">false</item>
+    <item name="settings_email" type="id">false</item>
+    <item name="ne" type="id">false</item>
+    <item name="img_date_event" type="id">false</item>
+    <item name="img_time_event" type="id">false</item>
+    <item name="title_event" type="id">false</item>
+    <item name="place_event" type="id">false</item>
+    <item name="text_date" type="id">false</item>
+    <item name="text_time" type="id">false</item>
+    <item name="tabs" type="id">false</item>
+    <item name="tabcontent" type="id">false</item>
+    <item name="tabhost" type="id">false</item> 
+   <item name="btn_next" type="id">false</item>
+    <item name="btn_back" type="id">false</item>
+       <item name="btn_send" type="id">false</item>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <item name="ad_container" type="id">false</item>
+    <item name="adCustomView" type="id">false</item>
+    <item name="adView" type="id">false</item>
+    <item name="ad_extra_notice" type="id">false</item>
+    <item name="ad_extra_info" type="id">false</item>
+    <item name="content_view" type="id">false</item>
+    <item name="list_view_empty" type="id">false</item>
+    <item name="entry_wrapper" type="id">false</item>
+    <item name="dialog_title_icon" type="id">false</item>
+    <item name="dialog_title" type="id">false</item>
+    <item name="dialog_time" type="id">false</item>
+    <item name="weekday_mon" type="id">false</item>
+    <item name="weekday_fri" type="id">false</item>
+    <item name="weekday_tue" type="id">false</item>
+    <item name="weekday_sat" type="id">false</item>
+    <item name="weekday_wed" type="id">false</item>
+    <item name="weekday_sun" type="id">false</item>
+    <item name="weekday_thu" type="id">false</item>
+    <item name="alert_enabled" type="id">false</item>
+    <item name="alert_delete" type="id">false</item>
+    <item name="alert_time" type="id">false</item>
+    <item name="alert_weekdays" type="id">false</item>
+    <item name="chart_toggle" type="id">false</item>
+    <item name="chart_selection" type="id">false</item>
+    <item name="graph_root" type="id">false</item>
+    <item name="graph_filler" type="id">false</item>
+    <item name="dialog_text" type="id">false</item>
+    <item name="button_yes" type="id">false</item>
+    <item name="button_no" type="id">false</item>
+    <item name="entry_title" type="id">false</item>
+    <item name="input_value" type="id">false</item>
+    <item name="input_unit" type="id">false</item>
+    <item name="button_save" type="id">false</item>
+    <item name="button_cancel" type="id">false</item>
+    <item name="webview_progress" type="id">false</item>
+    <item name="ads_webview" type="id">false</item>
+    <item name="drinkware" type="id">false</item>
+    <item name="drinkware_toggle" type="id">false</item>
+    <item name="top_bar" type="id">false</item>
+    <item name="daily_progress" type="id">false</item>
+    <item name="daily_progress_label" type="id">false</item>
+    <item name="menu_bar" type="id">false</item>
+    <item name="menu_button" type="id">false</item>
+    <item name="date_selection_button" type="id">false</item>
+    <item name="date_return_button" type="id">false</item>
+    <item name="parameter_hot_day" type="id">false</item>
+    <item name="parameter_hightened_activity" type="id">false</item>
+    <item name="list_view_label" type="id">false</item>
+    <item name="dialog_date" type="id">false</item>
+    <item name="drinkware_image" type="id">false</item>
+    <item name="drinkware_label" type="id">false</item>
+    <item name="entry_capacity" type="id">false</item>
+    <item name="entry_unit" type="id">false</item>
+    <item name="entry_capacity_bar" type="id">false</item>
+    <item name="button_delete" type="id">false</item>
+    <item name="entry_image" type="id">false</item>
+    <item name="entry_time" type="id">false</item>
+    <item name="menu_overlay" type="id">false</item>
+    <item name="menu_main" type="id">false</item>
+    <item name="menu_alerts" type="id">false</item>
+    <item name="menu_charts" type="id">false</item>
+    <item name="menu_statistics" type="id">false</item>
+    <item name="menu_settings" type="id">false</item>
+    <item name="menu_scrollview" type="id">false</item>
+    <item name="menu_scrollview_groupview" type="id">false</item>
+    <item name="wizard_page_personal" type="id">false</item>
+    <item name="wizard_page_personal_goals" type="id">false</item>
+    <item name="wizard_goal" type="id">false</item>
+    <item name="wizard_goal_unit" type="id">false</item>
+    <item name="wizard_goal_hot_day_icon" type="id">false</item>
+    <item name="wizard_goal_hightened_activity_icon" type="id">false</item>
+    <item name="wizard_goal_calculated" type="id">false</item>
+    <item name="wizard_goal_hot_day" type="id">false</item>
+    <item name="wizard_goal_hightened_activity" type="id">false</item>
+    <item name="wizard_goal_total" type="id">false</item>
+    <item name="wizard_gender" type="id">false</item>
+    <item name="wizard_weight" type="id">false</item>
+    <item name="wizard_lifestyle" type="id">false</item>
+    <item name="wizard_meal_intake" type="id">false</item>
+    <item name="dialog_text_warning" type="id">false</item>
+    <item name="wizard_parameter_hot_day" type="id">false</item>
+    <item name="wizard_parameter_hot_day_value" type="id">false</item>
+    <item name="wizard_parameter_hightened_activity" type="id">false</item>
+    <item name="wizard_parameter_hightened_activity_value" type="id">false</item>
+    <item name="wizard_page_units" type="id">false</item>
+    <item name="wizard_instructions" type="id">false</item>
+    <item name="wizard_warning" type="id">false</item>
+    <item name="wizard_unit_weight_kg" type="id">false</item>
+    <item name="wizard_unit_weight_pound" type="id">false</item>
+    <item name="wizard_unit_liquid_ml" type="id">false</item>
+    <item name="wizard_unit_liquid_oz" type="id">false</item>
+    <item name="page_title_info" type="id">false</item>
+    <item name="button_left" type="id">false</item>
+    <item name="button_right" type="id">false</item>
+    <item name="rateme_now" type="id">false</item>
+    <item name="rateme_later" type="id">false</item>
+    <item name="rateme_never" type="id">false</item>
+    <item name="sd_warning" type="id">false</item>
+    <item name="settings_about_rateme_row" type="id">false</item>
+    <item name="category_row_subtitle_rateme" type="id">false</item>
+    <item name="settings_about_rateme_separator" type="id">false</item>
+    <item name="settings_alerts_toggle" type="id">false</item>
+    <item name="settings_alerts_ringtone_toggle" type="id">false</item>
+    <item name="settings_alerts_ringtone_path" type="id">false</item>
+    <item name="settings_alerts_vibration_toggle" type="id">false</item>
+    <item name="settings_alerts_lights_toggle" type="id">false</item>
+    <item name="settings_alerts_goals_toggle" type="id">false</item>
+    <item name="settings_alerts_after_goals_toggle" type="id">false</item>
+    <item name="settings_backup_error" type="id">false</item>
+    <item name="settings_export" type="id">false</item>
+    <item name="settings_backup_store_separator" type="id">false</item>
+    <item name="settings_backup_store" type="id">false</item>
+    <item name="settings_backup_restore_separator" type="id">false</item>
+    <item name="settings_backup_restore" type="id">false</item>
+    <item name="settings_backup_transfer_separator" type="id">false</item>
+    <item name="settings_backup_transfer" type="id">false</item>
+    <item name="settings_logout_separator" type="id">false</item>
+    <item name="settings_logout" type="id">false</item>
+    <item name="drinkware_title" type="id">false</item>
+    <item name="drinkware_capacity" type="id">false</item>
+    <item name="drinkware_unit" type="id">false</item>
+    <item name="trend_unit" type="id">false</item>
+    <item name="statistics_total_entries" type="id">false</item>
+    <item name="statistics_total_days" type="id">false</item>
+    <item name="statistics_total_water_label" type="id">false</item>
+    <item name="statistics_total_water" type="id">false</item>
+    <item name="trend_7_days" type="id">false</item>
+    <item name="trend_14_days" type="id">false</item>
+    <item name="trend_30_days" type="id">false</item>
+    <item name="trend_3_months" type="id">false</item>
+    <item name="trend_6_months" type="id">false</item>
+    <item name="trend_1_year" type="id">false</item>
+    <item name="notification_image" type="id">false</item>
+
+</resources>

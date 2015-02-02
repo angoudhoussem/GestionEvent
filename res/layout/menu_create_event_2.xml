@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/list_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:dividerHeight="1dp" />
+
+    <LinearLayout
+        style="@style/wide_layout"
+        android:layout_marginTop="0.0dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/btn_back"
+            style="@style/dialog_button"
+            android:layout_marginRight="2.0dip"
+            android:layout_weight="50.0"
+            android:text="@string/btn_back" />
+
+        <Button
+            android:id="@id/btn_send"
+            style="@style/dialog_button"
+            android:layout_marginRight="2.0dip"
+            android:layout_weight="50.0"
+            android:text="@string/btn_send" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fill_layout" >
+
+        <ImageView
+            android:id="@id/authentification_title_icon"
+            style="@style/wrap_layout"
+            android:layout_gravity="bottom"
+            android:src="@drawable/footer" />
+    </LinearLayout>
+
+</RelativeLayout>

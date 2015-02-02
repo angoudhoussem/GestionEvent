@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/img11"
+        android:src="@drawable/img2" />
+
+    <ImageView
+        android:id="@+id/img22"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/img11"
+        android:layout_below="@+id/img2"
+        android:src="@drawable/calendar2" />
+
+    <ImageView
+        android:id="@+id/img11"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_below="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/jotaeditor" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/img3"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/userimg"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/d_contacts" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignTop="@+id/img11"
+        android:layout_marginTop="72dp"
+        android:layout_toLeftOf="@+id/img11"
+        android:src="@drawable/face01" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignTop="@+id/img11"
+        android:layout_toRightOf="@+id/imageView3"
+        android:src="@drawable/f1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/img11"
+        android:src="@drawable/face05" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignTop="@+id/img11"
+        android:layout_toLeftOf="@+id/imageView4"
+        android:src="@drawable/f2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/userimg"
+        android:layout_alignTop="@+id/imageView4"
+        android:src="@drawable/face02" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="90dip"
+        android:layout_height="70dip"
+        android:layout_above="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/f3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/ic_ok" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_notok" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/ic_ok" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img22"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/mapstext" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/img3"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/iconmap" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="60dip"
+        android:layout_height="80dip"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignLeft="@+id/userimg"
+        android:src="@drawable/marquer2" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="60dip"
+        android:layout_height="80dip"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignRight="@+id/imageView9"
+        android:src="@drawable/marquer3" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dip"
+        android:layout_height="80dip"
+        android:layout_alignBottom="@+id/userimg"
+        android:layout_toRightOf="@+id/imageView7"
+        android:src="@drawable/marquer1" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/welcome" />
+
+</RelativeLayout>

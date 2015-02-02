@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fill_layout"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/wrap_layout" >
+
+        <ImageView
+            android:id="@id/authentification_title_icon"
+            style="@style/wrap_layout"
+            android:layout_width="match_parent"
+            android:src="@drawable/header" />
+    </LinearLayout>
+
+    <ScrollView style="@style/match_wrap" >
+
+        <LinearLayout
+            style="@style/fill_layout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@id/entry_wrapper"
+                style="@style/login_wrapper"
+                android:layout_gravity="center"
+                android:layout_marginTop="5.0dip" >
+
+                <LinearLayout style="@style/authentication_header" >
+
+                    <ImageView
+                        android:id="@id/registration_title_icon"
+                        style="@style/authentification_title_icon"
+                        android:src="@drawable/usernew" />
+
+                    <TextView
+                        android:id="@id/registration"
+                        style="@style/authentification_title"
+                        android:text="@string/registration_txt" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/authentification_background" >
+
+                    <EditText
+                        android:id="@id/registration_login"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext"
+                        android:drawableLeft="@drawable/us"
+                        android:hint="@string/field_login_hint_re" />
+
+                    <EditText
+                        android:id="@id/registration_password"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10.0dip"
+                        android:background="@drawable/edittext"
+                        android:drawableLeft="@drawable/ps"
+                        android:hint="@string/field_password_hint_re"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@id/registration_pseudo"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10.0dip"
+                        android:background="@drawable/edittext"
+                        android:drawableLeft="@drawable/ps"
+                        android:hint="@string/field_pseudo_hint_re" />
+
+                    <EditText
+                        android:id="@id/registration_email"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10.0dip"
+                        android:background="@drawable/edittext"
+                        android:drawableLeft="@drawable/ps"
+                        android:hint="@string/field_email_hint_re" />
+                    
+                    <EditText
+                        android:id="@id/registration_adresse"
+                        style="@style/wrap_layout"
+                        android:layout_width="180.0dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10.0dip"
+                        android:background="@drawable/edittext"
+                        android:drawableLeft="@drawable/ps"
+                        android:hint="adresse" />
+
+                    <LinearLayout
+                        style="@style/wide_layout"
+                        android:layout_marginTop="20.0dip" >
+
+                        <Button
+                            android:id="@id/btn_register"
+                            style="@style/dialog_button"
+                            android:layout_marginRight="2.0dip"
+                            android:layout_weight="50.0"
+                            android:text="@string/register_btn_text" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout style="@style/fill_layout" >
+
+        <ImageView
+            android:id="@id/authentification_title_icon"
+            style="@style/wrap_layout"
+            android:layout_gravity="bottom"
+            android:src="@drawable/footer" />
+    </LinearLayout>
+
+</LinearLayout>

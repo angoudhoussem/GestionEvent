@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="text_menu_secondary">#ff777777</color>
+    <color name="separator_gray">#ffd7d7d7</color>
+    <color name="chart_goal">#a8b8dbeb</color>
+    <color name="chart_goal_solid">#ffb8dbeb</color>
+    <color name="chart_water">#ff44ace3</color>
+    <color name="chart_grid">#ffe3e3e3</color>
+    <color name="chart_background">#ffe5e5e5</color>
+    <color name="background">#fff1f1f1</color>
+    <color name="text_blue">#ff2e8fcb</color>
+    <color name="text_dark_blue">#ff1c7493</color>
+    <color name="text_gray">#ff888888</color>
+    <color name="text_light_gray">#ffb7b7b7</color>
+    <color name="text_pressed_yellow">#ffefd216</color>
+    <color name="text_pressed_blue">#ff389bd6</color>
+    <color name="dialog_blue">#ff27b5e6</color>
+    <item type="color" name="ad_text">@color/white</item>
+    <color name="ad_background">#fff2b621</color>
+      <color name="purple_light">#a276eb</color> 
+    <color name="purple_middle">#8658ce</color>
+    <color name="purple_dark">#6a3ab2</color>
+</resources>

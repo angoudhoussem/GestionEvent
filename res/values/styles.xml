@@ -1,0 +1,159 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="fill_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <style name="fill_fragment" parent="AppBaseTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="tall_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="wrap_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wide_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="login_wrapper" parent="@style/wrap_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="authentification_title" parent="@style/wide_layout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="authentication_header" parent="@style/wide_layout">
+        <item name="android:background">@drawable/dialog_background_top</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">7dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+    </style>
+
+    <style name="authentification_title_icon">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+    </style>
+
+    <style name="authentification_background" parent="@style/wide_layout">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/dialog_background_bottom</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:minWidth">275.0dip</item>
+    </style>
+
+    <style name="dialog_button" parent="@style/wrap_layout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/dialog_button</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+    </style>
+
+    <style name="dialog_title_icon">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+    </style>
+
+    <style name="dialog_title" parent="@style/wide_layout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">10.0dip</item>
+    </style>
+
+    <style name="menu_wrapper" parent="@style/wrap_layout">
+        <item name="android:background">@drawable/menu_element_background</item>
+    </style>
+
+    <style name="menu_icon" parent="@style/wrap_layout">
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="separator">
+        <item name="android:background">@color/separator_gray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="separator_title" parent="@style/wide_layout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_light_gray</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+
+    <style name="category_row" parent="@style/wide_layout">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="category_row_title" parent="@style/wide_layout">
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+
+    <style name="category_row_title_settings" parent="@style/wide_layout">
+        <item name="android:textColor">@color/settings_title</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="category_row_subtitle" parent="@style/wide_layout">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <style name="category_row_subtitle_settings" parent="@style/wide_layout">
+        <item name="android:textColor">@color/settings_subtitle</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="list_separator">
+        <item name="android:background">@color/separator_gray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+</resources>
